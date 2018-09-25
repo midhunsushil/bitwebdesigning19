@@ -1,0 +1,69 @@
+body {
+  font-family: Helvetica;
+  padding: 2.5em;
+  padding-top: 1em;
+  background-color: white;
+  border-style: dotted;
+  background-image: url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Desktop-Best-And-Website-background-2560x1600-PIC-WPD0012553.jpg");
+}
+
+#maintitle {
+  font-size: 2.5em;
+  margin: 1em;
+  font-family: Impact;
+  color: #dddddd;
+}
+
+.skillset {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* background-color: #082451;
+  border-style: dashed;
+  border-color: red; */
+}
+
+.skill-html {
+  background-color: #E55126;
+}
+
+.skill-js {
+  background-color: #E5A227;
+}
+
+.skill-jquery {
+  background-color: #0C73B8;
+}
+
+.skill-html,
+.skill-js,
+.skill-jquery {
+  width: 100%;
+  padding: 1em 3em 2em 2em;
+  margin: 1.0em;
+  color: whitesmoke;
+  border-left: 1cm solid ;
+  border-color: rgba(171, 217, 219, 0.5);
+}
+
+.projects-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: #333333;
+  color: whitesmoke;
+}
